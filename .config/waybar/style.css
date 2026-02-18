@@ -1,0 +1,141 @@
+* {
+  font-family: Maple Mono;
+  border-radius: 8;
+  font-size: 14px;
+  padding: 0px;
+  background: transparent;
+}
+
+tooltip {
+    background-color: rgba(30, 30, 46, 0.95);  /* Catppuccin base */
+    border-radius: 8px;
+    border: 1px solid rgba(138, 173, 244, 0.3);  /* Blue border */
+    padding: 12px;
+    font-family: "Maple Mono", monospace;
+}
+
+#mpd,
+#custom-nightmode,
+#network,
+#clock,
+#custom-moon,
+#tray,
+#workspaces,
+#mpd,
+#pulseaudio {
+  background-image: linear-gradient(to bottom, #2E281F 100%);
+
+  margin: 6px;
+  margin-right: 0px;
+  padding: 4px 8px;
+  border-radius: 3px;
+  color: #d8cab8;
+  font-weight: bold;
+
+  border-style: none;
+  transition-duration: 120ms;
+}
+
+#clock {
+  margin-right: 6px;
+  font-weight: bold;
+}
+#clock:hover {
+  background-image: linear-gradient(to bottom, #000000 100%);
+  color: #d8cab8;
+  transition-duration: 120ms;
+}
+
+#network:hover {
+  background-image: linear-gradient(to bottom, #000000 100%);
+  color: #2E281F;
+  transition-duration: 120ms;
+}
+
+#mpd {
+  padding: 0 10px 0 5px;
+}
+#mpd:hover {
+  background-image: linear-gradient(to bottom, #000000 100%);
+  color: #d8cab8;
+  transition-duration: 120ms;
+}
+
+#pulseaudio:hover {
+  background-image: linear-gradient(to bottom, #000000 100%);
+  color: #d8cab8;
+  transition-duration: 120ms;
+}
+
+#custom-moon {
+  font-weight: bold;
+  transition-duration: 120ms;
+  font-size: 25px;
+  padding: 0 12px 0 9px;
+  color: #d8cab8
+}
+
+#custom-moon:hover {
+  background-image: linear-gradient(to bottom, #000000 100%);
+  color: #d8cab8;
+  transition-duration: 120ms;
+}
+
+#custom-nightmode {
+  font-weight: bold;
+  transition-duration: 120ms;
+  font-size: 20px;
+  padding: 0 15px 0 3px;
+}
+#custom-nightmode:hover {
+  background-image: linear-gradient(to bottom, #000000 100%);
+  color: #d8cab8;
+  transition-duration: 120ms;
+}
+
+
+#tray menu {
+  background-color: #2E281F;
+  color: #d8cab8;
+  padding: 4px;
+}
+#tray menu menuitem {
+  background-image: linear-gradient(to bottom, #27232b 100%);
+
+  margin: 3px;
+  color: #d8cab8;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #27232b;
+}
+#tray menu menuitem:hover {
+  background-image: linear-gradient(to bottom, #27232b 100%);
+  color: #ac82e9;
+  font-weight: bold;
+}
+
+#workspaces button {
+  transition-duration: 100ms;
+  all: initial;
+  min-width: 0;
+  font-weight: bold;
+  color: #d8cab8;
+  margin-right: 0.2cm;
+  margin-left: 0.2cm;
+}
+
+#workspaces button:hover {
+  transition-duration: 120ms;
+  color: #d8cab8;
+}
+#workspaces button.focused {
+  color: #d8cab8;
+  font-weight: bold;
+}
+#workspaces button.active {
+  color: #AC82E9;
+  font-weight: bold;
+}
+#workspaces button.urgent {
+  color: #d8cab8;
+}
