@@ -1,12 +1,13 @@
-# dots
+VERY WIP
+
 personnal archlinux hyprland dotfiles
-first ever "rice" and very wip
+first ever "rice"
 
 setup :
 
 IDE&terminal font : Maple Mono
 
-##system##
+## system ##
 kitty
 rofi & networkmanager_dmenu
 waybar
